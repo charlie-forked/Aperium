@@ -3,7 +3,7 @@ import CardSlider from './CardSlider.vue';
 </script>
 
 <template class="flex w-full h-full">
-  <div class="flex flex-col items-center mt-16"> 
+  <div class="mb-16 flex flex-col items-center mt-[150px]"> 
       <div id="spots-left" class="flex justify-center items-center">
           <div class="dark:border-gray-700 text-center border dark:bg-[#0d0d12] dark:hover:border-[#E86DFC]/40 transition-colors duration-500 ease-in-out p-2 rounded-full w-[155px] h-[34px] flex justify-center items-center">
               <span class="relative flex h-[11px] w-[11px]">
