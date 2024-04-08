@@ -41,7 +41,7 @@
   </template>
   
   <script>
-  import Card from './Card.vue';
+  import Card from '../cardslider/Card.vue';
   
   export default {
     components: {
@@ -60,21 +60,22 @@
   
   .moving-element {
     position: absolute;
-    top: 50%;
-    width: 210px;
+    top: 0; 
+    left: 0; 
+    width: max-content;
     height: 50px;
-    right: 0;
     background-color: rgb(126, 126, 231);
-    animation: moveRightToLeft 20s linear infinite;
+    animation: moveRightToLeft 25s linear infinite;
     display: flex;
+    animation-delay: -0s; /* Delay the start of the animation to allow time for initial scrolling */
   }
   
   @keyframes moveRightToLeft {
     0% {
-      right: 0;
+      transform: translateX(100%); 
     }
     100% {
-      right: 100vw;
+      transform: translateX(-100%); 
     }
   }
   </style>

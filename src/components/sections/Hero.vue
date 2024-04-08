@@ -1,5 +1,5 @@
 <script setup>
-import CardSlider from './CardSlider.vue';
+import CardSlider from '../cardslider/CardSlider.vue';
 </script>
 
 <template class="flex w-full h-full">
@@ -26,7 +26,7 @@ import CardSlider from './CardSlider.vue';
 </template>
 
 <script>
-import CardSlider from './CardSlider.vue';
+import CardSlider from '../cardslider/CardSlider.vue';
 
 export default {
   components: {
