@@ -25,6 +25,7 @@ import CardSlider from '../cardslider/CardSlider.vue';
   </div>  
 </template>
 
+
 <script>
 import CardSlider from '../cardslider/CardSlider.vue';
 
