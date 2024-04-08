@@ -12,7 +12,10 @@
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
     "@astrojs/vue": "^4.0.10",
+    "@studio-freight/lenis": "^1.0.42",
     "astro": "^4.5.16",
+    "boxicons": "^2.1.4",
+    "lenis": "^0.0.2",
     "preline": "^2.1.0",
     "tailwindcss": "^3.4.3",
     "vue": "^3.4.21"
