@@ -19,7 +19,7 @@ import CardSlider from '../cardslider/CardSlider.vue';
           <p class="text-gray-400 mt-4">You are tired of being the 99% of the population who are on mobile for<br> 9 hours going to parties etc. you are in the right place, here you<br> become <span class="hover:text-[#E86DFC] underline transition-colors duration-1000 ease-linear cursor-pointer">1%</span></p>
       </div>
       <div class="relative inline-flex group">
-          <div class="transition-all duration-1000 ease-linear sm:text-white sm:bg-[#171720] lg:text-gray-400 lg:hover:text-white lg:hover:border lg:hover:bg-[#171720] lg:bg-[#0d0d12] border px-6 py-3 rounded-full mt-12 lg:border-gray-700 sm:border-[#E86DFC]/40 lg:hover:border-[#E86DFC]/40"><a href="https://google.com/">Register</a></div>
+          <div class="transition-all duration-500 ease-linear sm:text-white sm:bg-[#171720] lg:text-gray-400 lg:hover:text-white lg:hover:border lg:hover:bg-[#171720] lg:bg-[#0d0d12] border px-6 py-3 rounded-full mt-12 lg:border-gray-700 sm:border-[#E86DFC]/40 lg:hover:border-[#E86DFC]/40"><a href="https://google.com/">Start Here &#128640;</a></div>
       </div>
       <CardSlider />
   </div>  

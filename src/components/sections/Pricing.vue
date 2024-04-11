@@ -1,8 +1,8 @@
 <template>
-    <div class="items-center mb-16 flex font-satoshi flex-col">
+    <div class="items-center mt-20 mb-[12rem] flex font-satoshi flex-col">
         <h2 class="text-xl font-black bg-gradient-to-r from-[#8b9ce1] via-[#a88aef] to-[#dc75fc] text-transparent bg-clip-text">Pricing</h2>
         <h1 class="mt-4 text-5xl font-bold text-white">How much it costs?</h1>
-        <div class="mt-10 flex flex-wrap">
+        <div class="mt-12 flex flex-wrap z-0">
         <!--Aperium Premium card-->
         <div class="p-4 relative z-10 mr-12 border-gray-700 border rounded-xl md:p-10 bg-[#0d0d12]">
             <h3 class="text-xl font-bold text-gray-800 dark:text-gray-200">Aperium Premium</h3>

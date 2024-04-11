@@ -1,5 +1,5 @@
 <template class="">
-    <div class="mt-20 mb-24 w-full h-full flex flex-col justify-center items-center">
+    <div class="mt-20 mb-[12rem] w-full h-full flex flex-col justify-center items-center">
         <h2 class="text-xl font-black bg-gradient-to-r from-[#8b9ce1] via-[#a88aef] to-[#dc75fc] text-transparent bg-clip-text">Our Program</h2>
         <h1 class="mt-4 text-5xl font-bold text-white">How it Works?</h1>
         <div id="items" class="mt-12 ml-2 mb-20 justify-center items-center relative"> <!-- Removed flex flex-row class -->
