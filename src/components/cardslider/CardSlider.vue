@@ -1,7 +1,7 @@
 <template>
     <div class="container mb-12 w-full mt-16">
       <div class="moving-element flex justify-between">
-        <li class="flex justify-between group gap-[200px] list-none bg-[#d1ced1aa] dark:bg-[#0d0d12]">
+        <li class="flex justify-between group gap-[200px] list-none bg-[#0d0d12]">
             <ul class="w-[260px]">
         <Card 
           href="https://instagram.com/ethkopa"

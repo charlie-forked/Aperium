@@ -5,18 +5,20 @@ import Hero from '../components/sections/Hero.vue';
 import Cookies from '../components/elements/Cookies.astro';
 import AboutUs from '../components/sections/OurProgram.vue';
 import Pricing from '../components/sections/Pricing.vue';
-import NotAsUsual from '../components/sections/NotAsUsual.vue';
+import NotAsUsual from '../components/sections/NotAsUsual.astro';
+import Footer from '../components/sections/footer.astro';
 ---
 
 <Layout>
 	<header>
 		<NavBar />
 	</header>
-	<main>
+	<main class="flex flex-col items-center justify-center min-h-screen w-full">
 		<Cookies />
 		<Hero />
 		<AboutUs />
 		<Pricing />
 		<NotAsUsual />
+		<Footer />
 	</main>
 </Layout>
